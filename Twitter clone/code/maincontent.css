@@ -1,0 +1,327 @@
+body{
+    margin-bottom:3000px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 356px;
+    padding-right:470px;
+    padding-top:100px;
+}
+
+.tweetinput-section{
+    display:flex;
+    padding-top:8px;
+    padding-bottom:10px;
+    padding-left:10px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-bottom-color: lightgray;
+    border-left-style:solid;
+    border-color: lightgray;
+}
+
+.dp{
+    width:50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.content-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section{
+    width:500px;
+    margin-top:18px;
+    margin-left:10px;
+    padding-top:8px;
+    border:none;
+    margin-bottom:35px;
+}
+
+.input-section::placeholder{
+    font-size: 21px;
+}
+
+.input-section:focus{
+    outline: none;}
+
+.section{
+    display:flex;
+    margin-left:0px;
+    padding-left: 0;
+}
+
+.sectionicons-div{
+    position:relative;
+    width: min-content;
+    height: min-content;
+    padding: 5px;
+    padding-bottom:2px;
+    border-radius: 50px;
+}
+
+.tooltip{
+    position:absolute;
+    color:white;
+    background-color: gray;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 2px;
+    left:-5px;
+    bottom:-22px;
+    opacity: 0;
+}
+
+.icons-section{
+    margin-left:8px;
+    display:flex;
+    width:220px;
+    justify-content: space-between;
+}
+.section-icons1{
+    width:16px;
+}
+
+.section-icons2{
+    width:18.5px;
+}
+.section-icons3{
+    width:16.5px;
+}
+
+.sectionicons-div-location{
+    width: min-content;
+    height: min-content;
+    padding-top: 3px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:1px;
+    border-radius: 50px;
+}
+
+.sectionicons-div:hover,.sectionicons-div-location:hover{
+    background-color: rgba(29, 155, 240, 0.2);
+    cursor: pointer;
+}
+
+.tweetbutton-section{
+    margin-left:215px;
+    margin-right:40px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius:30px;
+    border:none;
+    background-color: rgb(29, 155, 240);
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    transition:background-color 0.15s;
+}
+
+.tweetbutton-section:hover{
+    cursor:pointer;
+    background-color:rgb(0, 128, 255);
+}
+
+.post1{
+    display:flex;
+    padding-top:12px;
+    padding-bottom: 10px;
+    padding-left:12px;
+    transition: 0.15s;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-color: lightgray;
+}
+.post1:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.post-dp{
+    position:relative;
+}
+
+.post-content{
+    display:flex;
+    flex-direction: column;
+}
+.top-div{
+    display:flex;
+    margin-top:4px;
+}
+
+.postgraycontent{
+    color:#536471;
+    font-size:15px;
+    margin-bottom:5px;
+    margin-left:4px;
+}
+
+.post-threedots1{
+    width:15px;
+    margin-left:260px;
+    
+}
+
+.post-emoji{
+    margin-left:4px;
+}
+
+.post-pic{
+    width:510px;
+    border-radius:20px;
+    margin-top:10px;
+    
+}
+
+.bottom-div{
+    display:flex;
+    width:420px;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+.reply-div,.retweet-div,.like-div,.view-div{
+    display:flex;
+    align-items:center;
+}
+
+.reply-pic,.retweet-pic,.like-pic,.view-pic,.share-pic{
+    width:25px;
+    margin-right:4px;
+}
+
+.postgraycontent1{
+    color:#536471;
+    font-size:15px;
+    
+}
+
+.post-threedots2{
+    width:15px;
+    margin-left:200px;
+}
+
+.post-threedots3{
+    width:15px;
+    margin-left:259px;
+}
+
+.post-threedots4{
+    width:15px;
+    margin-left:235px;
+}
+
+.post-threedots5{
+    width:15px;
+    margin-left:290px;
+}
+
+.post-threedots6{
+    width:15px;
+    margin-left:278px;
+}
+
+.post-pic-sharukh{
+    width:380px;
+    border-radius:20px;
+    margin-top:10px;
+    
+}
+
+.post-pic-mrbeast{
+    width:420px;
+    border-radius:20px;
+    margin-top:10px;
+    
+}
+
+.blue-span:hover{
+    text-decoration: underline;
+}
+
+.post-tooltip-div{
+    position:relative;
+}
+
+.post-tooltip{
+    position:absolute;
+    padding:12px;
+    border-radius:15px;
+    margin-top:4px;
+    left:-120px;
+    background-color: white;
+    opacity:0;
+    transition:opacity 0.2s;
+    pointer-events:none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.post-tooltip-div:hover .post-tooltip{
+    opacity:1;
+}
+
+.top-flex{
+    display:flex;
+    margin-bottom:8px;
+}
+
+.tooltip-dp{
+    width:60px;
+    border-radius:30px;
+    margin-right:130px;
+}
+
+.tooltip-follow{
+    border: none;
+    padding:0px;
+    height:20px;
+    padding:16px 20px;
+    display:flex;
+    border-radius:50px;
+    align-items: center;
+    font-size: 14px;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    margin-top:4px;
+}
+
+.post-tooltip .graycontent{
+    margin-top:-5px;
+}
+
+.middle-flex{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.bottom-flex{
+    display:flex;
+    margin-top:20px;
+}
+
+.bottomflex-div{
+    display:flex;
+    margin-right:20px;
+}
+
+.bottomflex-div .bold-content{
+    font-size:14px;
+}
+
+.bottomflex-div .graycontent{
+    font-size:14px;
+    margin-top:0px;
+    margin-left:2px;
+}
+
+.post-tooltip .heading .bold-content{
+    font-size:18px;
+    margin-right:2px;
+}

@@ -1,0 +1,36 @@
+.header{
+    position:fixed;
+    top:0;
+    left:364px;
+    right:478px;
+    height:107px;
+    border-style:solid;
+    border-top:none;
+    border-color: lightgray;
+    z-index: 100;
+    background-color: white;
+}
+
+.headerhome{
+    font-weight:bold;
+    font-size:21px;
+    margin-left:12px;
+    margin-top:12px;
+    margin-bottom:9px;
+}
+
+.header-option{
+    display:inline-block;
+    padding-left: 117.5px;
+    padding-right:117.5px;
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-top:10px;
+    color:#536471;
+    transition:background-color 0.15s;
+}
+
+.header-option:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor:pointer;
+}

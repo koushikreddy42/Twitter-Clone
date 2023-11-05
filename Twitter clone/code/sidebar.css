@@ -1,0 +1,113 @@
+
+
+p{
+    margin:0;
+}
+
+.sidebar{
+    position:fixed;
+    left:76px;
+    bottom:0;
+    top:0;
+    width:285px;
+}
+
+.column-flex{
+    display:flex;
+    flex-direction: column;
+    height:650px;
+    justify-content:space-between;
+    margin-bottom:90px;
+}
+
+.twitterlogo{
+    margin-top:10px;
+    width: min-content;
+    height: min-content;
+    margin-left:20px;
+    padding:1px;
+    border-radius:100px;
+    transition:background-color 0.15s;
+    cursor:pointer;
+}
+
+.twitterlogo:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.twitter-logo{
+    width:42px;
+    
+}
+
+.home{
+    margin-left:20px;
+    display:flex;
+    align-items:center;
+    width: min-content;
+    height: min-content;
+    padding:8px 12px;
+    border-radius:30px;
+    transition:background-color 0.15s;
+    cursor:pointer;
+}
+.home:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.logo{
+    width:30px;
+}
+.name{
+    margin-left:15px;
+    margin-right:8px;
+    font-size:20px;
+}
+.tweet-button{
+    margin-left:8px;
+    margin-right:40px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:30px;
+    border:none;
+    background-color: rgb(29, 155, 240);
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:background-color 0.15s;
+}
+
+.tweet-button:hover{
+    cursor:pointer;
+    background-color:rgb(0, 128, 255);
+}
+
+.profile{
+    display:flex;
+    width: min-content;
+    height: min-content;
+    margin-left:8px;
+    margin-right:100px;
+    padding-left:12px;
+    padding-right:15px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:50px;
+    transition:background-color 0.15s;
+    cursor:pointer;
+}
+
+.profile:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.profile-dp{
+    width:45px;
+    border-radius: 22.5px;
+    height:45px;
+    margin-right:10px;
+}
+.profile-content{
+    margin-right:70px;
+}
+.three-dots{
+    width:15px;
+}

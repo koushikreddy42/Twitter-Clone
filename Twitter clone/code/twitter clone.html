@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/code/twitterclone.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>twitter clone</title>
+        
+        
+        
+        
+        
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        </style>
+    <link rel="stylesheet" href="../code/sidebar.css"><link rel="stylesheet" href="../code/rightsidebar.css"><link rel="stylesheet" href="../code/header.css"><link rel="stylesheet" href="../code/maincontent.css"><link rel="preconnect" href="https://fonts.googleapis.com/"></head>
+    <body>
+        <div class="sidebar">
+            <div class="column-flex">
+            <div class="twitterlogo"><img class="twitter-logo" src="../pictures/twitter logo.png"></div>
+            <div class="home">
+                <img class="logo" src="../pictures/homelogo.png">
+                <div class="name">Home</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/explore logo.png">
+                <div class="name">Explore</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/notification logo.jpeg">
+                <div class="name">Notifications</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/message logo.png">
+                <div class="name">Messages</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/lists icon.png">
+                <div class="name">Lists</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/bookmark logo.png">
+                <div class="name">Bookmarks</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/profile icon.png">
+                <div class="name">Profile</div>
+            </div>
+            <div class="home">
+                <img class="logo" src="../pictures/more icon.png">
+                <div class="name">More</div>
+            </div>
+            <button class="tweet-button">Tweet</button>
+            </div>
+            <div class="profile">
+                <img class="profile-dp" src="../pictures/no dp icon.webp">
+                <div class="profile-content">
+                    <p style="font-weight: bold;margin-bottom:3px;margin-top:2px;">noobmaster</p>
+                    <p style="color:gray;">@noobmaster</p>
+                </div>
+                <img class="three-dots" src="../pictures/three-dots.svg">
+            </div>
+        </div>
+
+
+        <div class="rightsidebar">
+            <input class="Search" type="text" placeholder="🔍      Search Twitter">
+
+            <div class="trending-bar">
+                <div class="happening">
+                    What's happening
+                </div>
+                <div class="trending">
+                    <div class="content">
+                        <p class="gray-content">NBA · 4 hours ago</p>
+                        <p class="bold-content">Heat at Nuggets</p>
+                    </div>
+                    <img class="nuggets" src="../pictures/nuggets.png">
+                </div>
+                <div class="trending">
+                    <div class="content">
+                        <p class="gray-content">Sports · Trending</p>
+                        <p class="bold-content">Yash Dayal</p>
+                        <p class="gray-content">Trending with <span class="blue-content">Rinku Singh</span>, <span class="blue-content"> #WTC23</span></p>
+                    </div>
+                    <img class="three-dot1" src="../pictures/three-dots.svg">
+                </div>
+                <div class="trending">
+                    <div class="content">
+                        <p class="gray-content">Trending in Hyderabad</p>
+                        <p class="bold-content">#PawanKalyan</p>
+                        <p class="gray-content">7,752 Tweets</p>
+                    </div>
+                    <img class="three-dot2" src="../pictures/three-dots.svg">
+                </div>
+                <div class="show-more">Show more</div>
+            </div>
+
+
+            <div class="follow-bar">
+                <div class="happening">
+                    Who to follow
+                </div>
+                <div class="follow">
+                    <div class="post-tooltip-div"> <img class="image" src="../pictures/virat kohli.jpeg">
+                        <div class="post-tooltip">
+                            <div class="top-flex">
+                            <img class="tooltip-dp" src="../pictures/virat kohli.jpeg">
+                            <button class="tooltip-follow">Follow</button>
+                            </div>
+                            <div class="heading">
+                                <p class="bold-content">Virat Kohli</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="graycontent">@imVkohli </p>
+                            <div class="middle-flex">A proud husband and father</div>
+                            <div class="bottom-flex">
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">61</p>
+                                    <p class="graycontent">Following</p>
+                                </div>
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">56.4M</p>
+                                    <p class="graycontent">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="follow-content">
+                    <div class="heading">
+                        <p class="bold-content">Virat Kohli</p>
+                        <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                    </div>
+                    <p class="graycontent">@imVkohli</p>
+                    </div>
+                    <button class="follow-button1">Follow</button>
+                </div>
+                <div class="follow">
+                    <div class="post-tooltip-div"> <img class="image" src="../pictures/ktr.jpeg">
+                        <div class="post-tooltip" style="top:-270px;">
+                            <div class="top-flex">
+                            <img class="tooltip-dp" src="../pictures/ktr.jpeg">
+                            <button class="tooltip-follow">Follow</button>
+                            </div>
+                            <div class="heading">
+                                <p class="bold-content">KTR</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="graycontent">@KTRBRS</p>
+                            <div class="middle-flex">Personal account of Minister for <br>
+                                Municipal Admin &amp; Urban Dev, Industry <br>
+                                &amp; Commerce, ITE&amp;C | MLA from <br>
+                                Siricilla, Telangana</div>
+                            <div class="bottom-flex">
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">159</p>
+                                    <p class="graycontent">Following</p>
+                                </div>
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">4M</p>
+                                    <p class="graycontent">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="follow-content">
+                    <div class="heading">
+                        <p class="bold-content">KTR</p>
+                        <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                    </div>
+                    <p class="graycontent">@KTRBRS</p>
+                    </div>
+                    <button class="follow-button2">Follow</button>
+                </div>
+
+                <div class="follow">
+                    <div class="post-tooltip-div"> <img class="image" src="../pictures/mahesh babu.jpeg">
+                        <div class="post-tooltip" style="top:-213px;">
+                            <div class="top-flex">
+                            <img class="tooltip-dp" src="../pictures/mahesh babu.jpeg">
+                            <button class="tooltip-follow">Follow</button>
+                            </div>
+                            <div class="heading">
+                                <p class="bold-content">Mahesh Babu</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="graycontent">@urstrulyMahesh </p>
+                            <div class="middle-flex">Actor in Indian Telugu Cinema</div>
+                            <div class="bottom-flex">
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">30</p>
+                                    <p class="graycontent">Following</p>
+                                </div>
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">13.3M</p>
+                                    <p class="graycontent">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="follow-content">
+                    <div class="heading">
+                        <p class="bold-content">Mahesh Babu</p>
+                        <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                    </div>
+                    <p class="graycontent">@urstrulyMahesh</p>
+                    </div>
+                    <button class="follow-button3">Follow</button>
+                </div>
+                <div class="show-more">Show more</div>
+            </div>
+            <div class="div1">
+                <a class="links">Terms of Service</a>
+                <a class="links">Privacy Policy</a>
+                <a class="links">Cookie Policy</a>
+            </div>
+            <div class="div2">
+                <a class="links">Accesibility</a>
+                <a class="links">Access info</a>
+                <div class="links-div">
+                <a class="links">More</a>
+                <img class="minidot" src="../pictures/three-dots.svg">
+                </div>
+                <p class="linkss">© 2023 X Corp.</p>
+            </div>
+        </div>
+
+        
+            <div class="header">
+                <p class="headerhome">Home</p>
+                <div class="header-option">
+                    For you
+                </div>
+                <div class="header-option">
+                    Following
+                </div>
+            </div>
+
+
+            <div class="maincontent">
+                <div class="tweetinput-section">
+                    <div class="profile-pic">
+                        <img class="dp" src="../pictures/no dp icon.webp">
+                    </div>
+                    <div class="content-section">
+                        <input class="input-section" type="text" placeholder="What is happening?!">
+                        <div class="section">
+                            <div class="icons-section">
+                             <div class="sectionicons-div"><img class="section-icons1" src="../pictures/media.png"> <div class="tooltip">Media</div></div>
+                             <div class="sectionicons-div"><img class="section-icons3" src="../pictures/gif.png"> <div class="tooltip">GIF</div></div>
+                             <div class="sectionicons-div"><img class="section-icons3" src="../pictures/poll.png"> <div class="tooltip">Poll</div></div>
+                             <div class="sectionicons-div"><img class="section-icons2" src="../pictures/emoji.png"> <div class="tooltip">Emoji</div></div>
+                             <div class="sectionicons-div"><img class="section-icons3" src="../pictures/schedule.png"> <div class="tooltip">Schedule</div></div>
+                             <div class="sectionicons-div-location"><img class="section-icons1" src="../pictures/location.png"> <div class="tooltip">Location</div></div>
+                            </div>
+                            <button class="tweetbutton-section">Tweet</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post1">
+                    <div class="post-dp">
+                       <div class="post-tooltip-div"> <img class="image" src="../pictures/virat kohli.jpeg">
+                        <div class="post-tooltip">
+                            <div class="top-flex">
+                            <img class="tooltip-dp" src="../pictures/virat kohli.jpeg">
+                            <button class="tooltip-follow">Follow</button>
+                            </div>
+                            <div class="heading">
+                                <p class="bold-content">Virat Kohli</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="graycontent">@imVkohli </p>
+                            <div class="middle-flex">A proud husband and father</div>
+                            <div class="bottom-flex">
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">61</p>
+                                    <p class="graycontent">Following</p>
+                                </div>
+                                <div class="bottomflex-div">
+                                    <p class="bold-content">56.4M</p>
+                                    <p class="graycontent">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="top-div">
+                            <div class="heading">
+                                <p class="bold-content">Virat Kohli</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="postgraycontent">@imVkohli · May 31</p>
+                            <img class="post-threedots1" src="../pictures/three-dots.svg">
+                        </div>
+                        <div class="middle-div">
+                            <div class="content-div">
+                                All day everyday 24x7.<span class="post-emoji">🇮🇳</span><span class="post-emoji">💙</span>
+                            </div>
+                             <img class="post-pic" src="../pictures/kohli post.jpeg">
+                        </div>
+                        <div class="bottom-div">
+                            <div class="reply-div">
+                                <img class="reply-pic" src="../pictures/reply.png">
+                                <div class="postgraycontent1">1,990</div>
+                            </div>
+                            <div class="retweet-div">
+                                <img class="retweet-pic" src="../pictures/retweet.png">
+                                <div class="postgraycontent1">12.8K</div>
+                            </div>
+                            <div class="like-div">
+                                <img class="like-pic" src="../pictures/like.png">
+                                <div class="postgraycontent1">208.2K</div>
+                            </div>
+                            <div class="view-div">
+                                <img class="view-pic" src="../pictures/view.png">
+                                <div class="postgraycontent1">3M</div>
+                            </div>
+                            <img class="share-pic" src="../pictures/share.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post1">
+                    <div class="post-dp">
+                        <div class="post-tooltip-div"> <img class="image" src="../pictures/mahesh babu.jpeg">
+                            <div class="post-tooltip">
+                                <div class="top-flex">
+                                <img class="tooltip-dp" src="../pictures/mahesh babu.jpeg">
+                                <button class="tooltip-follow">Follow</button>
+                                </div>
+                                <div class="heading">
+                                    <p class="bold-content">Mahesh Babu</p>
+                                    <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                                </div>
+                                <p class="graycontent">@urstrulyMahesh </p>
+                                <div class="middle-flex">Actor in Indian Telugu Cinema</div>
+                                <div class="bottom-flex">
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">30</p>
+                                        <p class="graycontent">Following</p>
+                                    </div>
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">13.3M</p>
+                                        <p class="graycontent">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        
+                    </div>
+                    <div class="post-content">
+                        <div class="top-div">
+                            <div class="heading">
+                                <p class="bold-content">Mahesh Babu</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="postgraycontent">@urstrulyMahesh · Jun 3</p>
+                            <img class="post-threedots2" src="../pictures/three-dots.svg">
+                        </div>
+                        <div class="middle-div">
+                            <div class="content-div">
+                                Extremely saddened by the news of the train collision in Odisha. My deepest condolences to the families who lost their loved ones. Praying for a speedy recovery for all those injured. Reminds us of the urgent need to prioritize safety in our railway systems.
+                            </div>
+                             
+                        </div>
+                        <div class="bottom-div">
+                            <div class="reply-div">
+                                <img class="reply-pic" src="../pictures/reply.png">
+                                <div class="postgraycontent1">395</div>
+                            </div>
+                            <div class="retweet-div">
+                                <img class="retweet-pic" src="../pictures/retweet.png">
+                                <div class="postgraycontent1">8,127</div>
+                            </div>
+                            <div class="like-div">
+                                <img class="like-pic" src="../pictures/like.png">
+                                <div class="postgraycontent1">33.2K</div>
+                            </div>
+                            <div class="view-div">
+                                <img class="view-pic" src="../pictures/view.png">
+                                <div class="postgraycontent1">626.4K</div>
+                            </div>
+                            <img class="share-pic" src="../pictures/share.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post1">
+                    <div class="post-dp">
+                        <div class="post-tooltip-div"> <img class="image" src="../pictures/elon musk dp.jpeg">
+                            <div class="post-tooltip">
+                                <div class="top-flex">
+                                <img class="tooltip-dp" src="../pictures/elon musk dp.jpeg">
+                                <button class="tooltip-follow">Follow</button>
+                                </div>
+                                <div class="heading">
+                                    <p class="bold-content">Elon Musk</p>
+                                    <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                                </div>
+                                <p class="graycontent">@elonmusk </p>
+                                <!-- <div class="middle-flex">A proud husband and father</div> -->
+                                <div class="bottom-flex">
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">330</p>
+                                        <p class="graycontent">Following</p>
+                                    </div>
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">143.4M</p>
+                                        <p class="graycontent">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="top-div">
+                            <div class="heading">
+                                <p class="bold-content">Elon Musk</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="postgraycontent">@elonmusk · Jun 3</p>
+                            <img class="post-threedots3" src="../pictures/three-dots.svg">
+                        </div>
+                        <div class="middle-div">
+                            
+                             <img class="post-pic" src="../pictures/elon musk post.jpeg">
+                        </div>
+                        <div class="bottom-div">
+                            <div class="reply-div">
+                                <img class="reply-pic" src="../pictures/reply.png">
+                                <div class="postgraycontent1">18.4K</div>
+                            </div>
+                            <div class="retweet-div">
+                                <img class="retweet-pic" src="../pictures/retweet.png">
+                                <div class="postgraycontent1">31K</div>
+                            </div>
+                            <div class="like-div">
+                                <img class="like-pic" src="../pictures/like.png">
+                                <div class="postgraycontent1">355K</div>
+                            </div>
+                            <div class="view-div">
+                                <img class="view-pic" src="../pictures/view.png">
+                                <div class="postgraycontent1">32.8M</div>
+                            </div>
+                            <img class="share-pic" src="../pictures/share.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post1">
+                    <div class="post-dp">
+                        <div class="post-tooltip-div"> <img class="image" src="../pictures/sharukh dp.jpeg">
+                            <div class="post-tooltip">
+                                <div class="top-flex">
+                                <img class="tooltip-dp" src="../pictures/sharukh dp.jpeg">
+                                <button class="tooltip-follow">Follow</button>
+                                </div>
+                                <div class="heading">
+                                    <p class="bold-content">Shah Rukh Khan</p>
+                                    <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                                </div>
+                                <p class="graycontent">@iamsrk </p>
+                                <div class="bottom-flex">
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">61</p>
+                                        <p class="graycontent">Following</p>
+                                    </div>
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">56.4M</p>
+                                        <p class="graycontent">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="top-div">
+                            <div class="heading">
+                                <p class="bold-content">Shah Rukh Khan</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="postgraycontent">@iamsrk · May 6</p>
+                            <img class="post-threedots4" src="../pictures/three-dots.svg">
+                        </div>
+                        <div class="middle-div">
+                            <div class="content-div">
+                                Ok thank u everyone. Some said my face not visible  in <span class="blue-span" style="color: rgb(29, 155, 240);">#Jawan</span> poster….so putting my face here….don’t tell the director &amp; producer. Love u all &amp; hope to meet u in theatres on <span class="blue-span" style="color: rgb(29, 155, 240);">#7thSeptember2023</span> love u and bye
+                            </div>
+                             <img class="post-pic-sharukh" src="../pictures/shahrukh post.jpeg">
+                        </div>
+                        <div class="bottom-div">
+                            <div class="reply-div">
+                                <img class="reply-pic" src="../pictures/reply.png">
+                                <div class="postgraycontent1">1,990</div>
+                            </div>
+                            <div class="retweet-div">
+                                <img class="retweet-pic" src="../pictures/retweet.png">
+                                <div class="postgraycontent1">12.8K</div>
+                            </div>
+                            <div class="like-div">
+                                <img class="like-pic" src="../pictures/like.png">
+                                <div class="postgraycontent1">208.2K</div>
+                            </div>
+                            <div class="view-div">
+                                <img class="view-pic" src="../pictures/view.png">
+                                <div class="postgraycontent1">3M</div>
+                            </div>
+                            <img class="share-pic" src="../pictures/share.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post1">
+                    <div class="post-dp">
+                        <div class="post-tooltip-div"> <img class="image" src="../pictures/friends dp.jpeg">
+                            <div class="post-tooltip">
+                                <div class="top-flex">
+                                <img class="tooltip-dp" src="../pictures/friends dp.jpeg">
+                                <button class="tooltip-follow">Follow</button>
+                                </div>
+                                <div class="heading">
+                                    <p class="bold-content">FRIENDS</p>
+                                    <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                                </div>
+                                <p class="graycontent">@FriendsTV</p>
+                                <div class="bottom-flex">
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">47</p>
+                                        <p class="graycontent">Following</p>
+                                    </div>
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">929.4K</p>
+                                        <p class="graycontent">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="top-div">
+                            <div class="heading">
+                                <p class="bold-content">FRIENDS</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="postgraycontent">@FriendsTV · Jun 8</p>
+                            <img class="post-threedots5" src="../pictures/three-dots.svg">
+                        </div>
+                        <div class="middle-div">
+                            <div class="content-div">
+                                An iconic cast to say the least. <span class="blue-span" style="color: rgb(29, 155, 240);">#FRIENDS</span> <span class="blue-span" style="color: rgb(29, 155, 240);">#NationalBFFDay</span>
+                            </div>
+                             <img class="post-pic" src="../pictures/friends post.jpeg">
+                        </div>
+                        <div class="bottom-div">
+                            <div class="reply-div">
+                                <img class="reply-pic" src="../pictures/reply.png">
+                                <div class="postgraycontent1">23</div>
+                            </div>
+                            <div class="retweet-div">
+                                <img class="retweet-pic" src="../pictures/retweet.png">
+                                <div class="postgraycontent1">708</div>
+                            </div>
+                            <div class="like-div">
+                                <img class="like-pic" src="../pictures/like.png">
+                                <div class="postgraycontent1">5,717</div>
+                            </div>
+                            <div class="view-div">
+                                <img class="view-pic" src="../pictures/view.png">
+                                <div class="postgraycontent1">194.4K</div>
+                            </div>
+                            <img class="share-pic" src="../pictures/share.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post1">
+                    <div class="post-dp">
+                        <div class="post-tooltip-div"> <img class="image" src="../pictures/mr beast dp.jpeg">
+                            <div class="post-tooltip">
+                                <div class="top-flex">
+                                <img class="tooltip-dp" src="../pictures/mr beast dp.jpeg">
+                                <button class="tooltip-follow">Follow</button>
+                                </div>
+                                <div class="heading">
+                                    <p class="bold-content">MrBeast</p>
+                                    <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                                </div>
+                                <p class="graycontent">@MrBeast</p>
+                                <div class="middle-flex">Twitter Super Official CEO</div>
+                                <div class="bottom-flex">
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">1,923</p>
+                                        <p class="graycontent">Following</p>
+                                    </div>
+                                    <div class="bottomflex-div">
+                                        <p class="bold-content">20.8M</p>
+                                        <p class="graycontent">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="top-div">
+                            <div class="heading">
+                                <p class="bold-content">MrBeast</p>
+                                <img class="blue-tick" src="../pictures/twitter blue tick.png">
+                            </div>
+                            <p class="postgraycontent">@MrBeast · Apr 28</p>
+                            <img class="post-threedots6" src="../pictures/three-dots.svg">
+                        </div>
+                        <div class="middle-div">
+                            <div class="content-div">
+                                Me and Pewdiepie finally met 🥰
+                            </div>
+                             <img class="post-pic-mrbeast" src="../pictures/mr beast post.jpeg">
+                        </div>
+                        <div class="bottom-div">
+                            <div class="reply-div">
+                                <img class="reply-pic" src="../pictures/reply.png">
+                                <div class="postgraycontent1">7,973</div>
+                            </div>
+                            <div class="retweet-div">
+                                <img class="retweet-pic" src="../pictures/retweet.png">
+                                <div class="postgraycontent1">21.3K</div>
+                            </div>
+                            <div class="like-div">
+                                <img class="like-pic" src="../pictures/like.png">
+                                <div class="postgraycontent1">494K</div>
+                            </div>
+                            <div class="view-div">
+                                <img class="view-pic" src="../pictures/view.png">
+                                <div class="postgraycontent1">26.3M</div>
+                            </div>
+                            <img class="share-pic" src="../pictures/share.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
